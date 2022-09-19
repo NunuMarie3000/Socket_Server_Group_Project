@@ -1,0 +1,31 @@
+{
+  "name": "socket_server_group_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NunuMarie3000/Socket_Server_Group_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NunuMarie3000/Socket_Server_Group_Project/issues"
+  },
+  "homepage": "https://github.com/NunuMarie3000/Socket_Server_Group_Project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.2"
+  }
+}
